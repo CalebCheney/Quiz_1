@@ -53,7 +53,7 @@ for row in students:
 
     # append the record to the dictionary with the student id as the Key
     # and the value as the GPA
-        student_dict[row[0]] = row[8]
+    student_dict[row[0]] = row[8]
 
 
 
@@ -66,14 +66,18 @@ print()
 
 #Print the student id 
 print('Student ID and GPA:')
-for key,value in student_dict.items():
-    print(key)
-    print(value)
-    print()
+#for key,value in student_dict.items():
+ #   print(key)
+  #  print(value)
+   # print()
 #print(student_dict['stud_id'])
+#for key,value in student_dict['567890123']:
+ #   print(key)
+  #  print(value)
+#print(student_dict[])
 
 #print out the corresponding GPA from the dictionary
-
+print(student_dict['567890123'])
 
 
 #close the outfile
