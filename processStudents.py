@@ -63,9 +63,9 @@ for row in students:
 print(student_dict)
 
 #Print the student id 
-#for key,value in student_dict.items():
- #   print(key)
-  #  print(items)
+for key,value in student_dict.items():
+    print(key)
+    print(value)
 #print(student_dict['stud_id'])
 
 #print out the corresponding GPA from the dictionary
