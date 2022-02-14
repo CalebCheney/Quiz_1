@@ -61,8 +61,10 @@ for row in students:
 
 #print the entire dictionary
 print(student_dict)
+print()
 
 #Print the student id 
+print('Student ID and GPA:')
 for key,value in student_dict.items():
     print(key)
     print(value)
